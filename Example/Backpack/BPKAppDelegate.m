@@ -22,6 +22,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+#if BPKLABEL_ATTRIBUTED_TEXT
+    NSLog(@"Using attributedText for BPKLabel");
+#endif
     // Override point for customization after application launch.
     return YES;
 }

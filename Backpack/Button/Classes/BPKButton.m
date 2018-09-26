@@ -136,6 +136,7 @@ NS_ASSUME_NONNULL_BEGIN
         _imagePosition = imagePosition;
 
         [self setNeedsLayout];
+        [self layoutIfNeeded];
     }
 }
 

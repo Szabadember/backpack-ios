@@ -19,6 +19,7 @@
 import UIKit
 import Backpack
 
+
 class LabelsPerformanceViewController: UIViewController {
     @IBOutlet weak var verticalStackView: UIStackView!
 
@@ -39,6 +40,12 @@ class LabelsPerformanceViewController: UIViewController {
         }
     }
 
+    static func randomString(length: Int) -> String {
+        let uuid = UUID().uuidString
+        let toDrop = uuid.count - length
+        return String(uuid.dropLast(toDrop))
+    }
+
     static func buildHorizontalStackView(emphasized: Bool) -> UIStackView {
         let horizontalStackView = UIStackView(frame: CGRect.zero)
         horizontalStackView.axis = .horizontal
@@ -49,7 +56,7 @@ class LabelsPerformanceViewController: UIViewController {
             let fontStyle = emphasized ? style.1 : style.0
 
             let label = Backpack.Label(fontStyle: fontStyle)
-            label.text = "Backpack"
+            label.text = randomString(length: 5)
             horizontalStackView.addArrangedSubview(label)
         }
 
