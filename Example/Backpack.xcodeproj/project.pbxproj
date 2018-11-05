@@ -48,6 +48,8 @@
 		D2C9CADF214685BC00AC30CF /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C9CADE214685BC00AC30CF /* ColorsViewController.swift */; };
 		D2CD11E7215E4D83000CEA5C /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CD11E6215E4D83000CEA5C /* CardsViewController.swift */; };
 		D2FF309021903B2500E06F96 /* Badges.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2FF308F21903B2500E06F96 /* Badges.storyboard */; };
+		D2FF309A2190480A00E06F96 /* BadgesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF30992190480A00E06F96 /* BadgesView.swift */; };
+		D2FF309C2190482700E06F96 /* BadgesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2FF309B2190482700E06F96 /* BadgesView.xib */; };
 		D613CE552006795400D60CC4 /* BPKColorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D613CE542006795400D60CC4 /* BPKColorTest.m */; };
 		D6391600202CAAC8006E8329 /* BPKShadowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D63915FF202CAAC8006E8329 /* BPKShadowViewController.m */; };
 		D6391602202CAF07006E8329 /* BPKShadowTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6391601202CAF07006E8329 /* BPKShadowTest.m */; };
@@ -169,6 +171,8 @@
 		D2C9CADE214685BC00AC30CF /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
 		D2CD11E6215E4D83000CEA5C /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
 		D2FF308F21903B2500E06F96 /* Badges.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Badges.storyboard; sourceTree = "<group>"; };
+		D2FF30992190480A00E06F96 /* BadgesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesView.swift; sourceTree = "<group>"; };
+		D2FF309B2190482700E06F96 /* BadgesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BadgesView.xib; sourceTree = "<group>"; };
 		D613CE542006795400D60CC4 /* BPKColorTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPKColorTest.m; sourceTree = "<group>"; };
 		D63915FE202CAAC8006E8329 /* BPKShadowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPKShadowViewController.h; sourceTree = "<group>"; };
 		D63915FF202CAAC8006E8329 /* BPKShadowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPKShadowViewController.m; sourceTree = "<group>"; };
@@ -392,6 +396,8 @@
 			children = (
 				D2B8A0192147FF49002290DE /* CollectionView Headers */,
 				D2161D502146B8D50097D0B1 /* CollectionView Cells */,
+				D2FF30992190480A00E06F96 /* BadgesView.swift */,
+				D2FF309B2190482700E06F96 /* BadgesView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -621,6 +627,7 @@
 				D233F00F2162159E00A07D9B /* Cards.storyboard in Resources */,
 				D2FF309021903B2500E06F96 /* Badges.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				D2FF309C2190482700E06F96 /* BadgesView.xib in Resources */,
 				D6B8D3B721417FFD00B0BFAB /* SnapshotTests-Info.plist in Resources */,
 				D649E8EE212F0B6500B25A9E /* Localizable.strings in Resources */,
 				D6DC0AF5216BBAE10003AC5D /* Dialogs.storyboard in Resources */,
@@ -790,6 +797,7 @@
 				6055821921523FAD00BF9F3E /* IconsPreviewCollectionViewCell.swift in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				D6DC0AF8216BBB2D0003AC5D /* DialogViewController.swift in Sources */,
+				D2FF309A2190480A00E06F96 /* BadgesView.swift in Sources */,
 				3A335C0A214BCC19009034A6 /* BPKButtonSelectorViewController.m in Sources */,
 				D649E8EC212F0A2A00B25A9E /* BPKRootListTableViewController.m in Sources */,
 				60CE0F992189F99200309211 /* SwitchesViewController.swift in Sources */,
