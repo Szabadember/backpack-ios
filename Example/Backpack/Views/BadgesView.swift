@@ -10,7 +10,10 @@ import UIKit
 
 class BadgesView: UIView {
     @IBOutlet weak var contentView: UIView!
-
+    @IBOutlet weak var typeLabel: UILabel!
+    
+    // TODO add type property, which will be used to set Label text and also set badge types
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()
