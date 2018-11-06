@@ -42,6 +42,28 @@
 		D219C1E02163918B00C9968D /* DividedCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D219C1DF2163918B00C9968D /* DividedCardsViewController.swift */; };
 		D225BBE2216218FF00FC8B17 /* CardsSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D225BBE1216218FF00FC8B17 /* CardsSelectorViewController.swift */; };
 		D233F00F2162159E00A07D9B /* Cards.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D233F00E2162159E00A07D9B /* Cards.storyboard */; };
+		D23E2BFB2191FEEB00A15AAE /* TextViewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BDF2191FEEB00A15AAE /* TextViewsViewController.swift */; };
+		D23E2BFC2191FEEB00A15AAE /* DialogSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BE02191FEEB00A15AAE /* DialogSelectorViewController.swift */; };
+		D23E2BFD2191FEEB00A15AAE /* CardsSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BE22191FEEB00A15AAE /* CardsSelectorViewController.swift */; };
+		D23E2BFE2191FEEB00A15AAE /* BPKButtonSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BE32191FEEB00A15AAE /* BPKButtonSelectorViewController.m */; };
+		D23E2BFF2191FEEB00A15AAE /* BPKButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BE42191FEEB00A15AAE /* BPKButtonsViewController.m */; };
+		D23E2C002191FEEB00A15AAE /* BPKShadowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BE62191FEEB00A15AAE /* BPKShadowViewController.m */; };
+		D23E2C012191FEEB00A15AAE /* LabelsSelectorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BE72191FEEB00A15AAE /* LabelsSelectorTableViewController.swift */; };
+		D23E2C022191FEEB00A15AAE /* GradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BE82191FEEB00A15AAE /* GradientViewController.swift */; };
+		D23E2C032191FEEB00A15AAE /* BPKRadiiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BE92191FEEB00A15AAE /* BPKRadiiViewController.m */; };
+		D23E2C042191FEEB00A15AAE /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BEB2191FEEB00A15AAE /* CardsViewController.swift */; };
+		D23E2C052191FEEB00A15AAE /* SpinnersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BEC2191FEEB00A15AAE /* SpinnersViewController.swift */; };
+		D23E2C062191FEEB00A15AAE /* DialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BEE2191FEEB00A15AAE /* DialogViewController.swift */; };
+		D23E2C072191FEEB00A15AAE /* BPKSpacingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BEF2191FEEB00A15AAE /* BPKSpacingsViewController.m */; };
+		D23E2C082191FEEB00A15AAE /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BF02191FEEB00A15AAE /* ColorsViewController.swift */; };
+		D23E2C092191FEEB00A15AAE /* SwitchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BF12191FEEB00A15AAE /* SwitchesViewController.swift */; };
+		D23E2C0A2191FEEB00A15AAE /* DividedCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BF22191FEEB00A15AAE /* DividedCardsViewController.swift */; };
+		D23E2C0B2191FEEB00A15AAE /* LabelsPerformanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BF32191FEEB00A15AAE /* LabelsPerformanceViewController.swift */; };
+		D23E2C0C2191FEEB00A15AAE /* LabelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BF52191FEEB00A15AAE /* LabelsViewController.swift */; };
+		D23E2C0D2191FEEB00A15AAE /* BPKBadgesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BF62191FEEB00A15AAE /* BPKBadgesViewController.m */; };
+		D23E2C0E2191FEEB00A15AAE /* BPKRootListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BF82191FEEB00A15AAE /* BPKRootListTableViewController.m */; };
+		D23E2C0F2191FEEB00A15AAE /* IconsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BF92191FEEB00A15AAE /* IconsViewController.swift */; };
+		D23E2C112191FF2500A15AAE /* BPKBadgesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E2C102191FF2500A15AAE /* BPKBadgesViewController.swift */; };
 		D246C1F4216643B8001CB366 /* BPKCardTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D246C1F3216643B8001CB366 /* BPKCardTest.m */; };
 		D246C1F621665056001CB366 /* BPKCardSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D246C1F521665056001CB366 /* BPKCardSnapshotTest.m */; };
 		D2B8A01B2147FF6A002290DE /* PreviewCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B8A01A2147FF6A002290DE /* PreviewCollectionViewHeader.swift */; };
@@ -72,7 +94,6 @@
 		D6B8CEB6217786F100BA52E8 /* LabelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B8CEB5217786F100BA52E8 /* LabelsViewController.swift */; };
 		D6B8D3B721417FFD00B0BFAB /* SnapshotTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6B8D3B621417FFD00B0BFAB /* SnapshotTests-Info.plist */; };
 		D6CE74F22124230000154D92 /* BPKPanelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CE74F12124230000154D92 /* BPKPanelTest.m */; };
-		D6CE74F721242D8A00154D92 /* BPKBadgesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CE74F621242D8A00154D92 /* BPKBadgesViewController.m */; };
 		D6CE74F921243A4500154D92 /* BPKBadgeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CE74F821243A4500154D92 /* BPKBadgeTest.m */; };
 		D6D164A02153934500FFB667 /* Buttons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D1649F2153934500FFB667 /* Buttons.storyboard */; };
 		D6D494B3214FF3CA0095F9CF /* BPKIconSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D494B2214FF3CA0095F9CF /* BPKIconSnapshotTest.m */; };
@@ -165,6 +186,35 @@
 		D219C1DF2163918B00C9968D /* DividedCardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DividedCardsViewController.swift; sourceTree = "<group>"; };
 		D225BBE1216218FF00FC8B17 /* CardsSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsSelectorViewController.swift; sourceTree = "<group>"; };
 		D233F00E2162159E00A07D9B /* Cards.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cards.storyboard; sourceTree = "<group>"; };
+		D23E2BDF2191FEEB00A15AAE /* TextViewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewsViewController.swift; sourceTree = "<group>"; };
+		D23E2BE02191FEEB00A15AAE /* DialogSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogSelectorViewController.swift; sourceTree = "<group>"; };
+		D23E2BE12191FEEB00A15AAE /* BPKSpacingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPKSpacingsViewController.h; sourceTree = "<group>"; };
+		D23E2BE22191FEEB00A15AAE /* CardsSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsSelectorViewController.swift; sourceTree = "<group>"; };
+		D23E2BE32191FEEB00A15AAE /* BPKButtonSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPKButtonSelectorViewController.m; sourceTree = "<group>"; };
+		D23E2BE42191FEEB00A15AAE /* BPKButtonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPKButtonsViewController.m; sourceTree = "<group>"; };
+		D23E2BE52191FEEB00A15AAE /* BPKBadgesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPKBadgesViewController.h; sourceTree = "<group>"; };
+		D23E2BE62191FEEB00A15AAE /* BPKShadowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPKShadowViewController.m; sourceTree = "<group>"; };
+		D23E2BE72191FEEB00A15AAE /* LabelsSelectorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelsSelectorTableViewController.swift; sourceTree = "<group>"; };
+		D23E2BE82191FEEB00A15AAE /* GradientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientViewController.swift; sourceTree = "<group>"; };
+		D23E2BE92191FEEB00A15AAE /* BPKRadiiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPKRadiiViewController.m; sourceTree = "<group>"; };
+		D23E2BEA2191FEEB00A15AAE /* BPKRootListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPKRootListTableViewController.h; sourceTree = "<group>"; };
+		D23E2BEB2191FEEB00A15AAE /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		D23E2BEC2191FEEB00A15AAE /* SpinnersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnersViewController.swift; sourceTree = "<group>"; };
+		D23E2BED2191FEEB00A15AAE /* BPKButtonSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPKButtonSelectorViewController.h; sourceTree = "<group>"; };
+		D23E2BEE2191FEEB00A15AAE /* DialogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogViewController.swift; sourceTree = "<group>"; };
+		D23E2BEF2191FEEB00A15AAE /* BPKSpacingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPKSpacingsViewController.m; sourceTree = "<group>"; };
+		D23E2BF02191FEEB00A15AAE /* ColorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		D23E2BF12191FEEB00A15AAE /* SwitchesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchesViewController.swift; sourceTree = "<group>"; };
+		D23E2BF22191FEEB00A15AAE /* DividedCardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DividedCardsViewController.swift; sourceTree = "<group>"; };
+		D23E2BF32191FEEB00A15AAE /* LabelsPerformanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelsPerformanceViewController.swift; sourceTree = "<group>"; };
+		D23E2BF42191FEEB00A15AAE /* BPKShadowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPKShadowViewController.h; sourceTree = "<group>"; };
+		D23E2BF52191FEEB00A15AAE /* LabelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelsViewController.swift; sourceTree = "<group>"; };
+		D23E2BF62191FEEB00A15AAE /* BPKBadgesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPKBadgesViewController.m; sourceTree = "<group>"; };
+		D23E2BF72191FEEB00A15AAE /* BPKButtonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPKButtonsViewController.h; sourceTree = "<group>"; };
+		D23E2BF82191FEEB00A15AAE /* BPKRootListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPKRootListTableViewController.m; sourceTree = "<group>"; };
+		D23E2BF92191FEEB00A15AAE /* IconsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconsViewController.swift; sourceTree = "<group>"; };
+		D23E2BFA2191FEEB00A15AAE /* BPKRadiiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPKRadiiViewController.h; sourceTree = "<group>"; };
+		D23E2C102191FF2500A15AAE /* BPKBadgesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPKBadgesViewController.swift; sourceTree = "<group>"; };
 		D246C1F3216643B8001CB366 /* BPKCardTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPKCardTest.m; sourceTree = "<group>"; };
 		D246C1F521665056001CB366 /* BPKCardSnapshotTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPKCardSnapshotTest.m; sourceTree = "<group>"; };
 		D2B8A01A2147FF6A002290DE /* PreviewCollectionViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCollectionViewHeader.swift; sourceTree = "<group>"; };
@@ -198,8 +248,6 @@
 		D6B8CEB5217786F100BA52E8 /* LabelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelsViewController.swift; sourceTree = "<group>"; };
 		D6B8D3B621417FFD00B0BFAB /* SnapshotTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SnapshotTests-Info.plist"; sourceTree = "<group>"; };
 		D6CE74F12124230000154D92 /* BPKPanelTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPKPanelTest.m; sourceTree = "<group>"; };
-		D6CE74F521242D8A00154D92 /* BPKBadgesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BPKBadgesViewController.h; sourceTree = "<group>"; };
-		D6CE74F621242D8A00154D92 /* BPKBadgesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPKBadgesViewController.m; sourceTree = "<group>"; };
 		D6CE74F821243A4500154D92 /* BPKBadgeTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPKBadgeTest.m; sourceTree = "<group>"; };
 		D6D1649F2153934500FFB667 /* Buttons.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Buttons.storyboard; sourceTree = "<group>"; };
 		D6D494B2214FF3CA0095F9CF /* BPKIconSnapshotTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPKIconSnapshotTest.m; sourceTree = "<group>"; };
@@ -411,6 +459,42 @@
 			path = "CollectionView Cells";
 			sourceTree = "<group>";
 		};
+		D23E2BDE2191FEEB00A15AAE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D23E2BDF2191FEEB00A15AAE /* TextViewsViewController.swift */,
+				D23E2BE02191FEEB00A15AAE /* DialogSelectorViewController.swift */,
+				D23E2BE12191FEEB00A15AAE /* BPKSpacingsViewController.h */,
+				D23E2BE22191FEEB00A15AAE /* CardsSelectorViewController.swift */,
+				D23E2BE32191FEEB00A15AAE /* BPKButtonSelectorViewController.m */,
+				D23E2BE42191FEEB00A15AAE /* BPKButtonsViewController.m */,
+				D23E2BE52191FEEB00A15AAE /* BPKBadgesViewController.h */,
+				D23E2BE62191FEEB00A15AAE /* BPKShadowViewController.m */,
+				D23E2BE72191FEEB00A15AAE /* LabelsSelectorTableViewController.swift */,
+				D23E2BE82191FEEB00A15AAE /* GradientViewController.swift */,
+				D23E2BE92191FEEB00A15AAE /* BPKRadiiViewController.m */,
+				D23E2BEA2191FEEB00A15AAE /* BPKRootListTableViewController.h */,
+				D23E2BEB2191FEEB00A15AAE /* CardsViewController.swift */,
+				D23E2BEC2191FEEB00A15AAE /* SpinnersViewController.swift */,
+				D23E2BED2191FEEB00A15AAE /* BPKButtonSelectorViewController.h */,
+				D23E2BEE2191FEEB00A15AAE /* DialogViewController.swift */,
+				D23E2BEF2191FEEB00A15AAE /* BPKSpacingsViewController.m */,
+				D23E2BF02191FEEB00A15AAE /* ColorsViewController.swift */,
+				D23E2BF12191FEEB00A15AAE /* SwitchesViewController.swift */,
+				D23E2BF22191FEEB00A15AAE /* DividedCardsViewController.swift */,
+				D23E2BF32191FEEB00A15AAE /* LabelsPerformanceViewController.swift */,
+				D23E2BF42191FEEB00A15AAE /* BPKShadowViewController.h */,
+				D23E2BF52191FEEB00A15AAE /* LabelsViewController.swift */,
+				D23E2BF62191FEEB00A15AAE /* BPKBadgesViewController.m */,
+				D23E2BF72191FEEB00A15AAE /* BPKButtonsViewController.h */,
+				D23E2BF82191FEEB00A15AAE /* BPKRootListTableViewController.m */,
+				D23E2BF92191FEEB00A15AAE /* IconsViewController.swift */,
+				D23E2BFA2191FEEB00A15AAE /* BPKRadiiViewController.h */,
+				D23E2C102191FF2500A15AAE /* BPKBadgesViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		D2B8A0192147FF49002290DE /* CollectionView Headers */ = {
 			isa = PBXGroup;
 			children = (
@@ -432,6 +516,7 @@
 		D655C515200F9B9200CB39AF /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D23E2BDE2191FEEB00A15AAE /* View Controllers */,
 				D6DC0AF7216BBB2C0003AC5D /* DialogSelectorViewController.swift */,
 				D6DC0AF6216BBB2C0003AC5D /* DialogViewController.swift */,
 				D219C1DF2163918B00C9968D /* DividedCardsViewController.swift */,
@@ -444,8 +529,6 @@
 				6048F77C2028BCE000C53A8B /* BPKRadiiViewController.m */,
 				D63915FE202CAAC8006E8329 /* BPKShadowViewController.h */,
 				D63915FF202CAAC8006E8329 /* BPKShadowViewController.m */,
-				D6CE74F521242D8A00154D92 /* BPKBadgesViewController.h */,
-				D6CE74F621242D8A00154D92 /* BPKBadgesViewController.m */,
 				D649E8EA212F0A2A00B25A9E /* BPKRootListTableViewController.h */,
 				D649E8EB212F0A2A00B25A9E /* BPKRootListTableViewController.m */,
 				3A7D2D45214AB9F400ECBD5B /* BPKButtonsViewController.h */,
@@ -775,33 +858,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D23E2BFF2191FEEB00A15AAE /* BPKButtonsViewController.m in Sources */,
 				D219C1E02163918B00C9968D /* DividedCardsViewController.swift in Sources */,
 				3AA018EF215BE26600838FBB /* SpinnersViewController.swift in Sources */,
 				6055821721523A1300BF9F3E /* IconsViewController.swift in Sources */,
+				D23E2C042191FEEB00A15AAE /* CardsViewController.swift in Sources */,
 				D6391600202CAAC8006E8329 /* BPKShadowViewController.m in Sources */,
 				D6B8CEB6217786F100BA52E8 /* LabelsViewController.swift in Sources */,
 				D2161D522146B8F40097D0B1 /* ColorPreviewCollectionViewCell.swift in Sources */,
+				D23E2C0D2191FEEB00A15AAE /* BPKBadgesViewController.m in Sources */,
+				D23E2C062191FEEB00A15AAE /* DialogViewController.swift in Sources */,
+				D23E2C0C2191FEEB00A15AAE /* LabelsViewController.swift in Sources */,
 				D2C9CADF214685BC00AC30CF /* ColorsViewController.swift in Sources */,
+				D23E2C032191FEEB00A15AAE /* BPKRadiiViewController.m in Sources */,
 				D2B8A01B2147FF6A002290DE /* PreviewCollectionViewHeader.swift in Sources */,
 				3AA018F4215D000700838FBB /* TextViewsViewController.swift in Sources */,
 				D2CD11E7215E4D83000CEA5C /* CardsViewController.swift in Sources */,
+				D23E2C012191FEEB00A15AAE /* LabelsSelectorTableViewController.swift in Sources */,
+				D23E2C052191FEEB00A15AAE /* SpinnersViewController.swift in Sources */,
+				D23E2C0E2191FEEB00A15AAE /* BPKRootListTableViewController.m in Sources */,
+				D23E2BFB2191FEEB00A15AAE /* TextViewsViewController.swift in Sources */,
+				D23E2BFC2191FEEB00A15AAE /* DialogSelectorViewController.swift in Sources */,
 				6003F59E195388D20070C39A /* BPKAppDelegate.m in Sources */,
 				D225BBE2216218FF00FC8B17 /* CardsSelectorViewController.swift in Sources */,
 				60D302CF201B77F4006DBC18 /* BPKSpacingsViewController.m in Sources */,
+				D23E2C022191FEEB00A15AAE /* GradientViewController.swift in Sources */,
 				D6907040215A4F2C0088C97B /* LabelsPerformanceViewController.swift in Sources */,
+				D23E2C112191FF2500A15AAE /* BPKBadgesViewController.swift in Sources */,
+				D23E2BFE2191FEEB00A15AAE /* BPKButtonSelectorViewController.m in Sources */,
 				3A7D2D47214AB9F400ECBD5B /* BPKButtonsViewController.m in Sources */,
 				6048F77D2028BCE000C53A8B /* BPKRadiiViewController.m in Sources */,
 				D6DC0AF9216BBB2D0003AC5D /* DialogSelectorViewController.swift in Sources */,
 				D643B6DE2142C36C008AB669 /* GradientViewController.swift in Sources */,
+				D23E2C0F2191FEEB00A15AAE /* IconsViewController.swift in Sources */,
+				D23E2C092191FEEB00A15AAE /* SwitchesViewController.swift in Sources */,
 				D690703E215A3DF50088C97B /* LabelsSelectorTableViewController.swift in Sources */,
 				6055821921523FAD00BF9F3E /* IconsPreviewCollectionViewCell.swift in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				D23E2C0A2191FEEB00A15AAE /* DividedCardsViewController.swift in Sources */,
+				D23E2BFD2191FEEB00A15AAE /* CardsSelectorViewController.swift in Sources */,
 				D6DC0AF8216BBB2D0003AC5D /* DialogViewController.swift in Sources */,
 				D2FF309A2190480A00E06F96 /* BadgesView.swift in Sources */,
+				D23E2C0B2191FEEB00A15AAE /* LabelsPerformanceViewController.swift in Sources */,
+				D23E2C072191FEEB00A15AAE /* BPKSpacingsViewController.m in Sources */,
 				3A335C0A214BCC19009034A6 /* BPKButtonSelectorViewController.m in Sources */,
+				D23E2C082191FEEB00A15AAE /* ColorsViewController.swift in Sources */,
 				D649E8EC212F0A2A00B25A9E /* BPKRootListTableViewController.m in Sources */,
+				D23E2C002191FEEB00A15AAE /* BPKShadowViewController.m in Sources */,
 				60CE0F992189F99200309211 /* SwitchesViewController.swift in Sources */,
-				D6CE74F721242D8A00154D92 /* BPKBadgesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
