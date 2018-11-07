@@ -60,10 +60,10 @@
 		D23E2C0A2191FEEB00A15AAE /* DividedCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BF22191FEEB00A15AAE /* DividedCardsViewController.swift */; };
 		D23E2C0B2191FEEB00A15AAE /* LabelsPerformanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BF32191FEEB00A15AAE /* LabelsPerformanceViewController.swift */; };
 		D23E2C0C2191FEEB00A15AAE /* LabelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BF52191FEEB00A15AAE /* LabelsViewController.swift */; };
-		D23E2C0D2191FEEB00A15AAE /* BPKBadgesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BF62191FEEB00A15AAE /* BPKBadgesViewController.m */; };
 		D23E2C0E2191FEEB00A15AAE /* BPKRootListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BF82191FEEB00A15AAE /* BPKRootListTableViewController.m */; };
 		D23E2C0F2191FEEB00A15AAE /* IconsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E2BF92191FEEB00A15AAE /* IconsViewController.swift */; };
 		D23E2C112191FF2500A15AAE /* BPKBadgesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E2C102191FF2500A15AAE /* BPKBadgesViewController.swift */; };
+		D23E2C13219204A900A15AAE /* BPKBadgeShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23E2C12219204A800A15AAE /* BPKBadgeShow.swift */; };
 		D246C1F4216643B8001CB366 /* BPKCardTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D246C1F3216643B8001CB366 /* BPKCardTest.m */; };
 		D246C1F621665056001CB366 /* BPKCardSnapshotTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D246C1F521665056001CB366 /* BPKCardSnapshotTest.m */; };
 		D2B8A01B2147FF6A002290DE /* PreviewCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B8A01A2147FF6A002290DE /* PreviewCollectionViewHeader.swift */; };
@@ -192,7 +192,6 @@
 		D23E2BE22191FEEB00A15AAE /* CardsSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsSelectorViewController.swift; sourceTree = "<group>"; };
 		D23E2BE32191FEEB00A15AAE /* BPKButtonSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPKButtonSelectorViewController.m; sourceTree = "<group>"; };
 		D23E2BE42191FEEB00A15AAE /* BPKButtonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPKButtonsViewController.m; sourceTree = "<group>"; };
-		D23E2BE52191FEEB00A15AAE /* BPKBadgesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPKBadgesViewController.h; sourceTree = "<group>"; };
 		D23E2BE62191FEEB00A15AAE /* BPKShadowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPKShadowViewController.m; sourceTree = "<group>"; };
 		D23E2BE72191FEEB00A15AAE /* LabelsSelectorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelsSelectorTableViewController.swift; sourceTree = "<group>"; };
 		D23E2BE82191FEEB00A15AAE /* GradientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientViewController.swift; sourceTree = "<group>"; };
@@ -209,12 +208,12 @@
 		D23E2BF32191FEEB00A15AAE /* LabelsPerformanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelsPerformanceViewController.swift; sourceTree = "<group>"; };
 		D23E2BF42191FEEB00A15AAE /* BPKShadowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPKShadowViewController.h; sourceTree = "<group>"; };
 		D23E2BF52191FEEB00A15AAE /* LabelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelsViewController.swift; sourceTree = "<group>"; };
-		D23E2BF62191FEEB00A15AAE /* BPKBadgesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPKBadgesViewController.m; sourceTree = "<group>"; };
 		D23E2BF72191FEEB00A15AAE /* BPKButtonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPKButtonsViewController.h; sourceTree = "<group>"; };
 		D23E2BF82191FEEB00A15AAE /* BPKRootListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPKRootListTableViewController.m; sourceTree = "<group>"; };
 		D23E2BF92191FEEB00A15AAE /* IconsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconsViewController.swift; sourceTree = "<group>"; };
 		D23E2BFA2191FEEB00A15AAE /* BPKRadiiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPKRadiiViewController.h; sourceTree = "<group>"; };
 		D23E2C102191FF2500A15AAE /* BPKBadgesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPKBadgesViewController.swift; sourceTree = "<group>"; };
+		D23E2C12219204A800A15AAE /* BPKBadgeShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPKBadgeShow.swift; sourceTree = "<group>"; };
 		D246C1F3216643B8001CB366 /* BPKCardTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPKCardTest.m; sourceTree = "<group>"; };
 		D246C1F521665056001CB366 /* BPKCardSnapshotTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPKCardSnapshotTest.m; sourceTree = "<group>"; };
 		D2B8A01A2147FF6A002290DE /* PreviewCollectionViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCollectionViewHeader.swift; sourceTree = "<group>"; };
@@ -446,6 +445,7 @@
 				D2161D502146B8D50097D0B1 /* CollectionView Cells */,
 				D2FF30992190480A00E06F96 /* BadgesView.swift */,
 				D2FF309B2190482700E06F96 /* BadgesView.xib */,
+				D23E2C12219204A800A15AAE /* BPKBadgeShow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -468,7 +468,6 @@
 				D23E2BE22191FEEB00A15AAE /* CardsSelectorViewController.swift */,
 				D23E2BE32191FEEB00A15AAE /* BPKButtonSelectorViewController.m */,
 				D23E2BE42191FEEB00A15AAE /* BPKButtonsViewController.m */,
-				D23E2BE52191FEEB00A15AAE /* BPKBadgesViewController.h */,
 				D23E2BE62191FEEB00A15AAE /* BPKShadowViewController.m */,
 				D23E2BE72191FEEB00A15AAE /* LabelsSelectorTableViewController.swift */,
 				D23E2BE82191FEEB00A15AAE /* GradientViewController.swift */,
@@ -485,7 +484,6 @@
 				D23E2BF32191FEEB00A15AAE /* LabelsPerformanceViewController.swift */,
 				D23E2BF42191FEEB00A15AAE /* BPKShadowViewController.h */,
 				D23E2BF52191FEEB00A15AAE /* LabelsViewController.swift */,
-				D23E2BF62191FEEB00A15AAE /* BPKBadgesViewController.m */,
 				D23E2BF72191FEEB00A15AAE /* BPKButtonsViewController.h */,
 				D23E2BF82191FEEB00A15AAE /* BPKRootListTableViewController.m */,
 				D23E2BF92191FEEB00A15AAE /* IconsViewController.swift */,
@@ -866,7 +864,6 @@
 				D6391600202CAAC8006E8329 /* BPKShadowViewController.m in Sources */,
 				D6B8CEB6217786F100BA52E8 /* LabelsViewController.swift in Sources */,
 				D2161D522146B8F40097D0B1 /* ColorPreviewCollectionViewCell.swift in Sources */,
-				D23E2C0D2191FEEB00A15AAE /* BPKBadgesViewController.m in Sources */,
 				D23E2C062191FEEB00A15AAE /* DialogViewController.swift in Sources */,
 				D23E2C0C2191FEEB00A15AAE /* LabelsViewController.swift in Sources */,
 				D2C9CADF214685BC00AC30CF /* ColorsViewController.swift in Sources */,
@@ -905,6 +902,7 @@
 				D23E2C082191FEEB00A15AAE /* ColorsViewController.swift in Sources */,
 				D649E8EC212F0A2A00B25A9E /* BPKRootListTableViewController.m in Sources */,
 				D23E2C002191FEEB00A15AAE /* BPKShadowViewController.m in Sources */,
+				D23E2C13219204A900A15AAE /* BPKBadgeShow.swift in Sources */,
 				60CE0F992189F99200309211 /* SwitchesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
